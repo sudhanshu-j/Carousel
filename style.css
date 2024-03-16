@@ -1,0 +1,383 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  background: linear-gradient(rgba(69, 57, 57, 0.568), rgba(0, 0, 0, 0.606)),
+    url(/images/galaxy.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  transition: all 0.8s ease;
+}
+
+.center {
+  width: 100%;
+}
+
+.top {
+  width: 100%;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid {
+  text-align: center;
+  margin-bottom: 200px;
+  color: #62aee7;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.mid a {
+  text-decoration: none;
+  color: #62e7ca;
+}
+
+.mid a:hover {
+  text-decoration: underline;
+}
+
+.top {
+  background-image: url(/images/text-bg.jpg);
+  background-position: center;
+  background-size: 50%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ff028d9a;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.carousel {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.left {
+  flex-basis: 50%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.left-item {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left-item a {
+  text-decoration: none;
+  color: #56076c;
+  font-weight: 600;
+}
+
+.left-item a:hover {
+  text-decoration: underline;
+  color: #0000009a;
+}
+
+.title {
+  font-size: 110px;
+  font-family: poppins;
+  font-weight: 600;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.text {
+  font-size: 18px;
+  font-family: poppins;
+  font-weight: 300;
+  color: #d6d7d6;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.sun-title {
+  background-image: url(/images/sun-img.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #ed7205;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Mercury-title {
+  background-image: url(/images/Mercury-img.png);
+  background-position: center;
+  background-size: 120%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #68696d;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.venus-title {
+  background-image: url(/images/venus-img.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #e3bb76;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.moon-title {
+  background-image: url(/images/moon-img.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #bab8b8;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.earth-title {
+  background-image: url(/images/earth-img.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #008000c6;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mars-title {
+  background-image: url(/images/mars_planet.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #c1440e;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.jupiter-title {
+  background-image: url(/images/jupiter-img.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #5b3b28;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.saturn-title {
+  background-image: url(/images/saturn-img.png);
+  background-size: 180%;
+  background-position: center;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #fceead;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.uranus-title {
+  background-image: url(/images/uranus-img.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #62aee7;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.neptune-title {
+  background-image: url(/images/neptune-img.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #2b378b;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.right {
+  position: sticky;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  flex-basis: 50%;
+}
+
+.item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.25s;
+  transform: scale(0.3);
+}
+
+.item.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.item img {
+  width: 380px;
+  filter: drop-shadow(10px 10px 6px rgb(0 0 0 / 0.7));
+}
+
+.item .saturn-img {
+  width: 500px;
+}
+
+.item button {
+  padding: 15px 40px;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  outline: none;
+  border: none;
+  border-radius: 7mm;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+.item button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  opacity: 0.6;
+}
+
+.item button a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.item .sun-btn {
+  background: #ed7205;
+}
+
+.item .moon-btn {
+  background: #bab8b8;
+}
+
+.item .earth-btn {
+  background: #008000c6;
+}
+
+.item .Mercury-btn {
+  background: #68696d;
+}
+
+.item .venus-btn {
+  background: #e3bb76;
+}
+
+.item .mars-btn {
+  background: #c1440e;
+}
+
+.item .jupiter-btn {
+  background: #5b3b28;
+}
+
+.item .saturn-btn {
+  background: #fceead;
+}
+
+.item .Uranus-btn {
+  background: #62aee7;
+}
+
+.item .neptune-btn {
+  background: #2b378b;
+}
+
+.item::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(6px) saturate(200%);
+  -webkit-backdrop-filter: blur(6px) saturate(200%);
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  z-index: -1;
+}
